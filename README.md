@@ -20,7 +20,7 @@ We have developed the implementation of supply chain process in Etherium Smart c
 ### Frontend
 
 ## Next Phase
-Right now for testing purpose, all the actions like add_product, add_product_state are open without any authentication of menufacturer and supplier. Our next phase is to implement login & registraction system so that only regsitered menufacturer & supplier can add the information to the blockchain.
+Right now for testing purpose, all the actions like add_product, add_product_state are open without any authentication of manufacturer and supplier. Our next phase is to implement login & registraction system so that only regsitered manufacturer & supplier can add the information to the blockchain.
 
 ## Future Plan
 There is one roadmap we have seen on one Medium article by Zebi,
@@ -29,9 +29,9 @@ There is one roadmap we have seen on one Medium article by Zebi,
 ###### Image Credit to [@Zebidata]( https://medium.com/@Zebidata ) ( [Blog Link]( https://medium.com/@Zebidata/blockchain-in-supply-chain-logistics-6cdfe36ffe88 ) )
 
 By studying this diagram we have built a json representation of blockchain for each transaction in above process.
-Like for example, the transaction between Menufacturer & Supplier will consists of following data:
-( This transaction generally consists of one type of products from menufacturers to supplier )
-- menufacturer detail
+Like for example, the transaction between Manufacturer & Supplier will consists of following data:
+( This transaction generally consists of one type of products from manufacturers to supplier )
+- manufacturer detail
 - supplier detail
 
 - batch_id
@@ -50,12 +50,12 @@ Like for example, the transaction between Menufacturer & Supplier will consists 
 - batch received date
 
 The transaction between Supplier & Logistics will consists of following data:
-( This transaction generally consists of many type of products collected from many menufacturers to be shipped to one location per transaction )
+( This transaction generally consists of many type of products collected from many manufacturers to be shipped to one location per transaction )
 - supplier detail
 - logistics detail
 
 - order_id
-- detail of one type of products collected from many menufacturers combined togather
+- detail of one type of products collected from many manufacturers combined togather
 - purchased cost from manufacturer
 - sell price
 - weight
